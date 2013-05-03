@@ -20,7 +20,8 @@
   ))
   
 (defn -main []
-  (println (str "Found " (count (get-links)) " links!")))
+  (println (str "Found " (count (get-links)) 
+             " links!")))
 
 
 
